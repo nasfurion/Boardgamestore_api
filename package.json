@@ -1,0 +1,17 @@
+{
+  "name": "boardgamestore-api",
+  "version": "1.0.0",
+  "description": "API for a boardgame store webapp. Final Project for INET2005",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Diego Amadio",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7"
+  }
+}
