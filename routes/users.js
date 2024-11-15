@@ -80,12 +80,14 @@ router.post('/login', async(req, res) => {
 
 // LOGOUT
 router.post('/logout', async(req, res) => {
-    
+    console.log('Logout')
+    res.send('Logout')
 })
 
 // GET SESSION
 router.get('/getSession', async(req, res) => {
-    
+    console.log('getSession')
+    res.send('getSession')
 })
 
 export default router;
