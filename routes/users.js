@@ -72,7 +72,7 @@ router.post('/login', async(req, res) => {
     }
 
     // Send response
-    res.json({'user': email})
+    res.status(200).json({'user': email})
 })
 
 // LOGOUT
