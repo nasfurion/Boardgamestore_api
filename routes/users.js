@@ -40,11 +40,8 @@ router.post('/signup', async(req, res) => {
     })
 
     // Send Response
-    res.json({
+    res.status(200).json({
         'user': email,
-        'first name': firstName,
-        'last name': lastName,
-        'hashed password': hashedPassword
     })
 })
 

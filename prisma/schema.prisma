@@ -15,7 +15,7 @@ model Product {
   name            String    
   description     String
   cost            Float
-  image_filename  String?
+  image_filename  String
 }
 
 model Customer {
